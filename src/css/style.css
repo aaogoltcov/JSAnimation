@@ -1,0 +1,23 @@
+.open_anime {
+  animation-name: collapsing;
+  animation-duration: 1s;
+  animation-direction: normal;
+}
+
+.close_anime {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  animation-name: collapsing;
+  animation-duration: 1s;
+  animation-direction: reverse;
+}
+
+@keyframes collapsing {
+  from {
+    height: 0;
+  }
+  to {
+    height: 114px;
+  }
+}
