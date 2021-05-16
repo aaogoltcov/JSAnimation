@@ -1,3 +1,8 @@
+.bd-example {
+  width: 400px;
+  margin: 100px auto auto auto;
+}
+
 .open_anime {
   animation-name: collapsing;
   animation-duration: 1s;
